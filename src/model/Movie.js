@@ -4,10 +4,14 @@ const movieSchema = new mongoose.Schema({
   title: {
     type: String,
     required: true,
+    set: (value) => value.toLowerCase(),
+    index: true,
+    unique: true,
   },
   director: {
     type: String,
     required: true,
+    index: true,
   },
   releaseYear: {
     type: Number,

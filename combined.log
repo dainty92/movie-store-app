@@ -1,0 +1,10 @@
+2023-08-22T11:49:23.156Z [ERROR]: Movie is not a constructor
+2023-08-22T12:06:39.846Z [ERROR]: Cast to ObjectId failed for value "64e4a485439534ced98a1ff" (type string) at path "_id" for model "Movie"
+2023-08-22T12:30:20.851Z [ERROR]: E11000 duplicate key error collection: MovieStore.movies index: title_1 dup key: { title: "The Exorcist" }
+2023-08-23T09:00:22.575Z [ERROR]: connection <monitor> to 54.167.140.196:27017 timed out
+2023-08-23T09:01:33.767Z [ERROR]: connect ETIMEDOUT 54.167.140.196:27017
+2023-08-23T09:01:33.771Z [ERROR]: connect ETIMEDOUT 54.167.140.196:27017
+2023-08-23T09:01:35.481Z [ERROR]: connect ETIMEDOUT 54.167.140.196:27017
+2023-08-23T09:01:46.309Z [ERROR]: connection timed out
+2023-08-23T09:04:40.111Z [ERROR]: connect ETIMEDOUT 54.167.140.196:27017
+2023-08-23T09:04:59.431Z [ERROR]: connection <monitor> to 34.230.226.63:27017 timed out
