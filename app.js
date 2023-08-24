@@ -12,7 +12,7 @@ const dbUrl = process.env.DB_URL;
 // Middleware
 app.use(errorHandler);
 app.use(express.json());
-app.use(cors({ origin: 'http://localhost:50614', credentials: true }));
+app.use(cors({ origin: 'https://movie-store-app.netlify.app', credentials: true }));
 
 app.use('/movies', moviesRouter);
 
